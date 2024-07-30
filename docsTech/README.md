@@ -2,12 +2,12 @@
 
 <h1 align="center">MUI X DataGrid overview</h1>
 
-Welcome in the documentation for contributors. If you want to use DataGrid components for your project, the [documentation for developers](https://mui.com/x/react-data-grid/getting-started/) is more appropriate.
+Welcome to the documentation for contributors. If you want to use DataGrid components for your project, the [documentation for developers](https://mui.com/x/react-data-grid/getting-started/) is more appropriate.
 Here we will discuss how the code is structured, to simplify codebase navigation, and onboard new contributors.
 
 ## Where is the code?
 
-In folder `packages` you will find one subfolder per exported package (`@mui/x-data-grid`, `@mui/x-data-grid-pro`, ...)
+In the folder `packages` you will find one subfolder per exported package (`@mui/x-data-grid`, `@mui/x-data-grid-pro`, ...)
 
 Since `@mui/x-data-grid-pro` is an extension of `@mui/x-data-grid`, it imports all the common features from `@mui/x-data-grid` and the internal logic are imported from `@mui/x-data-grid/internals` which is defined in `x-data-grid/src/internals/index.ts`. And `@mui/x-data-grid-premium` is a further extension of `@mui/x-data-grid-pro`, it imports all the common features from both `@mui/x-data-grid` and `@mui/x-data-grid-pro` and adds some new features on top of that.
 
@@ -62,7 +62,7 @@ Notice that all the events do not have an associated prop `on<Event>`
 
 ## Specific features
 
-Here you will find more precision about how some features are designed.
+Here you will find more details about how other features are designed.
 
 - [filtering](./filtering.md)
 - [virtualization](./virtualization.md)
