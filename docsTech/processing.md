@@ -21,9 +21,9 @@ For each pattern, you will find a list of where such pattern is used, why it is 
 
 ## Pipe-processing
 
-A pipe processing is a pattern allowing plugins or components to enrich data used by another plugin.
+Pipe processing is a pattern allowing plugins or components to enrich data used by another plugin.
 
-We can classify the pipe-processing into several categories:
+We can classify pipe-processing into several categories:
 
 ### Plugin state enrichment
 
